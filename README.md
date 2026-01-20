@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
+## TODO
+
+- [ ] User authentication
+- [ ] Listings page
+- [ ] User profile page
+- [ ] Categories page
+- [ ] Messages interface
+- [ ] Picture storage/uploading
+
 ## Getting Started
 
 First, run the development server:
