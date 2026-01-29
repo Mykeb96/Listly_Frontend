@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
-
 ## TODO
 
 - [ ] User authentication
@@ -8,6 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - [ ] Categories page
 - [ ] Messages interface
 - [ ] Picture storage/uploading
+- [x] Page layout/Mock
 
 ## Getting Started
 
