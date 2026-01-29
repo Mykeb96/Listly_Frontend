@@ -8,6 +8,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - [ ] Categories page
 - [ ] Messages interface
 - [ ] Picture storage/uploading
+- [x] Page layout/Mock
 
 ## Getting Started
 
