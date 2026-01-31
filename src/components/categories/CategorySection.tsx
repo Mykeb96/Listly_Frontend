@@ -1,8 +1,8 @@
-import styles from './Categories.module.scss'
+import styles from './CategorySection.module.scss'
 
 import { tempCategories } from './tempCategories'
 
-export default function Categories() {
+export default function CategorySection() {
 
 
     return (

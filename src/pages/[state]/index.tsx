@@ -2,7 +2,8 @@ import styles from '../../styles/pages/[state]/StatePage.module.scss'
 
 import { useRouter } from 'next/router'
 
-import Categories from '@/components/categories/Categories';
+import CategorySection from '@/components/categories/CategorySection';
+import LocationSection from '@/components/locations/LocationSection';
 
 export default function StatePage() {
     const router = useRouter()
@@ -13,7 +14,8 @@ export default function StatePage() {
 
     return (
         <div className={styles.container}>
-            <Categories />
+            <CategorySection />
+            <LocationSection />
         </div>
     )
 }
