@@ -8,10 +8,6 @@ export const navItems = [
         icon: "sample icon"
     },
     {
-        name: "Change Location",
-        icon: "sample icon"
-    },
-    {
         name: "Support",
         icon: "sample icon"
     },
