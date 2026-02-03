@@ -3,7 +3,7 @@
 - [ ] User authentication
 - [ ] Listings page
 - [ ] User profile page
-- [ ] Categories page
+- [x] Categories page
 - [ ] Messages interface
 - [ ] Picture storage/uploading
 - [x] Page layout/Mock
