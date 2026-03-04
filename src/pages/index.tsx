@@ -11,8 +11,7 @@ export default function Home() {
   function handleStateChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const state = e.target.value
     if (!state) return
-    const slug = state.toLowerCase().replace(/\s+/g, "-")
-    router.push(`/${slug}`)
+    router.push(`/${state}`)
   }
 
   return (
