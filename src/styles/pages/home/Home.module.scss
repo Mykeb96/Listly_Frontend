@@ -1,0 +1,35 @@
+.Container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.State_Selector_Container {
+    border: 1px solid cyan;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.State_Selector {
+    width: 50%;
+    text-align: center;
+}
+
+.State_Option {
+    
+}
+
+@media(max-width: 927px) {
+    .State_Selector_Container {
+        width: 90%;
+    }
+
+    .State_Selector {
+        width: 90%;
+    }
+}

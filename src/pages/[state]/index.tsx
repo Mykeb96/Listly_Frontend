@@ -14,8 +14,11 @@ export default function StatePage() {
 
     return (
         <div className={styles.container}>
-            <CategorySection />
-            <LocationSection />
+            <h2 className={styles.State_Header}>{state}</h2>
+            <div className={styles.Sections}>
+                <CategorySection />
+                <LocationSection />
+            </div>
         </div>
     )
 }

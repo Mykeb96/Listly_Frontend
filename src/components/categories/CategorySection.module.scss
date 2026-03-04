@@ -1,6 +1,5 @@
 .container {
     border: 1px solid red;
-    height: 100%;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -8,8 +7,10 @@
     gap: 30px;
     padding: 40px;
     overflow-y: auto;
+    height: 100%;
 }
 
 .category {
     text-decoration: underline;
+    cursor: pointer;
 }
