@@ -3,7 +3,18 @@ import styles from "../styles/pages/home/Home.module.scss"
 
 import { states } from "../data/States"
 
+import { useRouter } from "next/router";
+
 export default function Home() {
+  const router = useRouter()
+
+  function handleStateChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    const state = e.target.value
+    if (!state) return
+    const slug = state.toLowerCase().replace(/\s+/g, "-")
+    router.push(`/${slug}`)
+  }
+
   return (
     <>
       <Head>
@@ -15,9 +26,12 @@ export default function Home() {
 
       <div className={styles.Container}>
         <div className={styles.State_Selector_Container}>
-          <h2 className={styles.State_Selector_Header}>Select Your State</h2>
-          <select className={styles.State_Selector}>
-            {states.map((state, index) => <option value={state} key={index}>{state}</option>)}
+          <h2 className={styles.State_Selector_Header}>Welcome to Listly</h2>
+          <select className={styles.State_Selector} onChange={handleStateChange} defaultValue="">
+            <option value="" disabled>Select your state</option>
+            {states.map((state, index) => (
+              <option className={styles.State_Option} value={state} key={index}>{state}</option>
+            ))}
           </select>
         </div>
       </div>
